@@ -1,8 +1,144 @@
 ## Changelog
 
+### [v13.3.0 - 2022-02-28](https://github.com/joke2k/faker/compare/v13.2.0...v13.3.0)
+
+* Add lorem provider for `fa-ir` language code. Thanks @arminshoughi. 
+
+### [v13.2.0 - 2022-02-22](https://github.com/joke2k/faker/compare/v13.1.0...v13.2.0)
+
+*  Add `bn_BD` Lorem Provider. Thanks @jabertuhin.
+
+### [v13.1.0 - 2022-02-22](https://github.com/joke2k/faker/compare/v13.0.0...v13.1.0)
+
+* Add  lorem support for `de_DE` and `de_AT`. Thanks @@Kalbra.
+
+### [v13.0.0 - 2022-02-15](https://github.com/joke2k/faker/compare/v12.3.3...v13.0.0)
+
+* Use `os.urandom` in `binary()` if unseeded. Thanks @AlmightyYakob.
+
+### [v12.3.3 - 2022-02-14](https://github.com/joke2k/faker/compare/v12.3.2...v12.3.3)
+
+*  Arabic improvements for names. Thanks @alfawal.
+
+### [v12.3.2 - 2022-02-14](https://github.com/joke2k/faker/compare/v12.3.1...v12.3.2)
+
+* Fix postcode format for `es_ES` locale. Thanks @mondeja.
+
+### [v12.3.1 - 2022-02-14](https://github.com/joke2k/faker/compare/v12.3.0...v12.3.1)
+
+* Prevent "non-integer arguments to randrange()" warnings on Python 3.10.
+  Thanks @jacksmith15. 
+
+### [v12.3.0 - 2022-02-10](https://github.com/joke2k/faker/compare/v12.2.0...v12.3.0)
+
+* Fix `it_IT` `ssn()` validity. Thanks @MarcoMatarazzo.
+
+### [v12.2.0 - 2022-02-09](https://github.com/joke2k/faker/compare/v12.1.0...v12.2.0)
+
+* Add cities to `de_CH`. Thanks @Kalbra.
+
+### [v12.1.0 - 2022-02-04](https://github.com/joke2k/faker/compare/v12.0.1...v12.1.0)
+
+* Set correct language on provider when specific locale is requested.
+  Thanks @interDist.
+
+### [v12.0.1 - 2022-02-04](https://github.com/joke2k/faker/compare/v12.0.0...v12.0.1)
+
+* Remove empty string in Korean job list. Thanks @georgidimitrov-hs.
+
+### [v12.0.0 - 2022-01-31](https://github.com/joke2k/faker/compare/v11.4.0...v12.0.0)
+
+* Remove dependency from [`text-unidecode`](https://github.com/kmike/text-unidecode/).
+
+### [v11.4.0 - 2022-01-31](https://github.com/joke2k/faker/compare/v11.3.0...v11.4.0)
+
+* Add geonames db of Italian cap-city-province and full match when generating 
+  full addresses. Thanks @FrancYescO.
+
+### [v11.3.0 - 2022-01-05](https://github.com/joke2k/faker/compare/v11.2.0...v11.3.0)
+
+* Add banks for `fa-ir`. Thanks @arminshoughi.
+
+### [v11.2.0 - 2022-01-05](https://github.com/joke2k/faker/compare/v11.1.0...v11.2.0)
+
+* Improve phone numbers for `it_IT`. Thanks @FrancYescO.
+
+### [v11.1.0 - 2021-12-28](https://github.com/joke2k/faker/compare/v11.0.0...v11.1.0)
+
+* Add providers for `az_AZ` locale. Thanks @sevdimali.
+
+### [v11.0.0 - 2021-12-27](https://github.com/joke2k/faker/compare/v10.0.0...v11.0.0)
+
+* Replace `lorempixel.com` service with `picsum.photos` in `image_url` provider.
+* Add `placeholder_url` argument to `image_url`.
+
+### [v10.0.0 - 2021-12-07](https://github.com/joke2k/faker/compare/v9.9.1...v10.0.0)
+
+* Deprecate positional `allowed_types`.
+
+### [v9.9.1 - 2021-12-07](https://github.com/joke2k/faker/compare/v9.9.0...v9.9.1)
+
+* Revert "deprecate positional `allowed_types`".
+
+### [v9.9.0 - 2021-11-29](https://github.com/joke2k/faker/compare/v9.8.4...v9.9.0)
+
+* deprecate positional `allowed_types` (#1573). Thanks @fcurella.
+
+### [v9.8.4 - 2021-11-29](https://github.com/joke2k/faker/compare/v9.8.3...v9.8.4)
+
+* Fix positional `value_types`.
+
+### [v9.8.3 - 2021-11-22](https://github.com/joke2k/faker/compare/v9.8.2...v9.8.3)
+
+* Shorten IBANs for `pl_PL` to 28 chars. Fix #1568 (#1569). Thanks @fcurella.
+
+### [v9.8.2 - 2021-11-15](https://github.com/joke2k/faker/compare/v9.8.1...v9.8.2)
+
+* Relax ElementsType to admit e.g. Sets. Thanks @OJFord.
+
+### [v9.8.1 - 2021-11-12](https://github.com/joke2k/faker/compare/v9.8.0...v9.8.1)
+
+* Fix ``pydecimal`` with ``left_digits=0`` not setting the left digit to 0. Thanks @ndrwkim.
+
+### [v9.8.0 - 2021-11-02](https://github.com/joke2k/faker/compare/v9.7.1...v9.8.0)
+
+* Add ``es_CO`` localized providers. Thank you @healarconr.
+
+### [v9.7.1 - 2021-10-27](https://github.com/joke2k/faker/compare/v9.7.0...v9.7.1)
+
+* Take into account area codes for French phone numbers. Thanks @nicarl.
+
+### [v9.7.0 - 2021-10-27](https://github.com/joke2k/faker/compare/v9.6.0...v9.7.0)
+
+* Add provider for French SSN. Thanks @nicarl.
+
+### [v9.6.0 - 2021-10-25](https://github.com/joke2k/faker/compare/v9.5.3...v9.6.0)
+
+* Add dynamic provider. Thanks @omri374.
+
+### [v9.5.3 - 2021-10-25](https://github.com/joke2k/faker/compare/v9.5.2...v9.5.3)
+
+* Improve randomness of ``pydecimal`` for different scenarios. Thanks @antonioIrizar.
+
+### [v9.5.2 - 2021-10-21](https://github.com/joke2k/faker/compare/v9.5.1...v9.5.2)
+
+* Limit ``typing_extensions`` dependency to Python < 3.8. Thanks @mgorny.
+
+### [v9.5.1 - 2021-10-20](https://github.com/joke2k/faker/compare/v9.5.0...v9.5.1)
+
+* Add ``typing-extensions`` as dependency and pin ``mypy`` version. Thanks @nicarl.
+
+### [v9.5.0 - 2021-10-19](https://github.com/joke2k/faker/compare/v9.4.0...v9.5.0)
+
+* Add automotive provider for ``nl_NL``. Thanks @MarcelRobeer.
+
+### [v9.4.0 - 2021-10-19](https://github.com/joke2k/faker/compare/v9.3.1...v9.4.0)
+
+* Add Typing. Thanks @MarcelRobeer, @nicarl.
+
 ### [v9.3.1 - 2021-10-11](https://github.com/joke2k/faker/compare/v9.3.0...v9.3.1)
 
-*  Change to secondary address format in ``en_AU`` locale to reflect the common usage. Thanks @deboraelkin2.
+* Change to secondary address format in ``en_AU`` locale to reflect the common usage. Thanks @deboraelkin2.
 
 ### [v9.3.0 - 2021-10-11](https://github.com/joke2k/faker/compare/v9.2.0...v9.3.0)
 
@@ -58,7 +194,7 @@
 
 ### [v8.12.2 - 2021-09-15](https://github.com/joke2k/faker/compare/v8.12.1...v8.12.2)
 
-*  Remove period/fullstop from ``en_GB`` prefixes. Thanks @stephengruppetta.
+* Remove period/fullstop from ``en_GB`` prefixes. Thanks @stephengruppetta.
 
 ### [v8.12.1 - 2021-08-24](https://github.com/joke2k/faker/compare/v8.12.0...v8.12.1)
 
@@ -72,7 +208,7 @@
 
 ### [v8.11.0 - 2021-08-03](https://github.com/joke2k/faker/compare/v8.10.3...v8.11.0)
 
-*  Add ``nic_handle``. Thanks @pishchalnikov.
+* Add ``nic_handle``. Thanks @pishchalnikov.
 
 ### [v8.10.3 - 2021-07-26](https://github.com/joke2k/faker/compare/v8.10.2...v8.10.3)
 
@@ -84,7 +220,7 @@
 
 ### [v8.10.1 - 2021-07-12](https://github.com/joke2k/faker/compare/v8.10.0...v8.10.1)
 
-* enable faker instances to be unpickled (#1480). Thanks @fcurella.
+* Enable faker instances to be unpickled (#1480). Thanks @fcurella.
 
 ### [v8.10.0 - 2021-07-07](https://github.com/joke2k/faker/compare/v8.9.1...v8.10.0)
 
@@ -116,7 +252,7 @@
 
 ### [v8.6.0 - 2021-06-07](https://github.com/joke2k/faker/compare/v8.5.1...v8.6.0)
 
-*  Add ``aba()`` method to generate ABA routing numbers. Thanks @mstellon.
+* Add ``aba()`` method to generate ABA routing numbers. Thanks @mstellon.
 
 ### [v8.5.1 - 2021-06-03](https://github.com/joke2k/faker/compare/v8.5.0...v8.5.1)
 
@@ -124,7 +260,7 @@
 
 ### [v8.5.0 - 2021-06-02](https://github.com/joke2k/faker/compare/v8.4.0...v8.5.0)
 
-*  Add  ``image`` provider. Thanks @n1ngu.
+* Add  ``image`` provider. Thanks @n1ngu.
 
 ### [v8.4.0 - 2021-05-27](https://github.com/joke2k/faker/compare/v8.3.0...v8.4.0)
 
@@ -132,15 +268,15 @@
 
 ### [v8.3.0 - 2021-05-26](https://github.com/joke2k/faker/compare/v8.2.1...v8.3.0)
 
-*  Add colors for ``he_IL``. Thanks @AndreyRub.
+* Add colors for ``he_IL``. Thanks @AndreyRub.
 
 ### [v8.2.1 - 2021-05-21](https://github.com/joke2k/faker/compare/v8.2.0...v8.2.1)
 
-*  Add few more names in ``en_IN`` person provider. Thanks @Felix-Raj.
+* Add few more names in ``en_IN`` person provider. Thanks @Felix-Raj.
 
 ### [v8.2.0 - 2021-05-18](https://github.com/joke2k/faker/compare/v8.1.4...v8.2.0)
 
-*  Add ``city_name()`` and cities to ``support .city()`` for ``th_TH``. Thanks @bact.
+* Add ``city_name()`` and cities to ``support .city()`` for ``th_TH``. Thanks @bact.
 
 ### [v8.1.4 - 2021-05-13](https://github.com/joke2k/faker/compare/v8.1.3...v8.1.4)
 
@@ -184,7 +320,7 @@
 
 ### [v6.6.1 - 2021-03-15](https://github.com/joke2k/faker/compare/v6.6.0...v6.6.1)
 
-* set ``uk_UA`` address street titles to proper language. Thanks @fessua.
+* Set ``uk_UA`` address street titles to proper language. Thanks @fessua.
 
 ### [v6.6.0 - 2021-03-09](https://github.com/joke2k/faker/compare/v6.5.2...v6.6.0)
 
@@ -204,7 +340,7 @@
 
 ### [v6.4.1 - 2021-02-19](https://github.com/joke2k/faker/compare/v6.4.0...v6.4.1)
 
-* user_agent: bump platform versions. Thanks @gsilvan.
+* `user_agent`: bump platform versions. Thanks @gsilvan.
 
 ### [v6.4.0 - 2021-02-19](https://github.com/joke2k/faker/compare/v6.3.0...v6.4.0)
 
@@ -216,7 +352,7 @@
 
 ### [v6.2.0 - 2021-02-17](https://github.com/joke2k/faker/compare/v6.1.1...v6.2.0)
 
-*  Add current_country, current_country_code and administrative_unit. Thanks @prescod.
+* Add current_country, current_country_code and administrative_unit. Thanks @prescod.
 
 ### [v6.1.1 - 2021-02-09](https://github.com/joke2k/faker/compare/v6.1.0...v6.1.1)
 
@@ -363,7 +499,6 @@
 ### [4.7.0 - 2020-10-08](https://github.com/joke2k/faker/compare/v4.6.0...v4.7.0)
 
 * Add province list and add 2 new district to ``ne_NP``. Thanks @iamsauravsharma.
-
 
 ### [4.6.0 - 2020-10-08](https://github.com/joke2k/faker/compare/v4.5.0...v4.6.0)
 
